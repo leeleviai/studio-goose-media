@@ -1,0 +1,33 @@
+<!-- wp:html -->
+<style>.sgm{direction:rtl;max-width:560px;margin:0 auto;padding:34px 18px 56px;font-family:Assistant,Arial,sans-serif;color:#2B2A28}
+.sgm .hero{background:#647659;color:#fff;border-radius:22px;padding:30px 24px;text-align:center}
+.sgm .tag{display:inline-block;background:#F7F5ED;color:#4F5F46;font-weight:800;font-size:14px;border-radius:99px;padding:5px 14px}
+.sgm h1{font-size:40px;line-height:1.05;font-weight:800;margin:16px 0 8px;color:#fff}
+.sgm .hero p{font-size:18px;line-height:1.5;margin:0;color:#F7F5ED}
+.sgm h2{font-size:22px;font-weight:800;margin:30px 0 10px}
+.sgm ol{margin:0;padding:0 22px 0 0;font-size:17px;line-height:1.7}
+.sgm .who{background:#F7F5ED;border-radius:16px;padding:16px 18px;font-size:16px;line-height:1.6;margin-top:24px}
+.sgm form{background:#fff;border:2px solid #E3E0D5;border-radius:20px;padding:20px;margin-top:26px;display:grid;gap:10px}
+.sgm form strong{font-size:20px}
+.sgm input[type=text],.sgm input[type=email]{font:inherit;font-size:16px;padding:12px 14px;border:1.5px solid #D8D3C4;border-radius:12px;width:100%;box-sizing:border-box}
+.sgm label.c{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;line-height:1.5;color:#5A554D;text-align:right}
+.sgm label.c input{margin-top:4px;flex:none;width:18px;height:18px}
+.sgm button{font:inherit;font-size:18px;font-weight:800;background:#EC6734;color:#fff;border:0;border-radius:99px;padding:14px;cursor:pointer}
+.sgm .ok{display:none;background:#E6EBDF;border-radius:20px;padding:22px;margin-top:26px;text-align:center;font-size:18px;line-height:1.6}
+.sgm .ok a{color:#4F5F46;font-weight:800}
+.sgm .f{font-size:14px;color:#5A554D;text-align:center;margin-top:24px}.sgm .f a{color:#4F5F46;font-weight:700}</style>
+<div class="sgm">
+<div class="hero"><span class="tag">מדריך חינמי · 10 עמודים</span><h1>מהבית לגן<br>ובחזרה</h1><p>מה שמנהלת גן רואה מצד אחד של הדלת,<br>ומה שאמא מרגישה מהצד השני</p></div>
+<form id="ganf"><strong>לקבלת המדריך למייל</strong>
+<input type="text" name="name" placeholder="שם" required>
+<input type="email" name="email" placeholder="מייל" required>
+<label class="c"><input type="checkbox" name="consent" value="yes" required>אני מאשר/ת קבלת עדכונים, תכנים שיווקיים ומבצעים באמצעות דואר אלקטרוני, מסרונים (SMS) או אמצעי תקשורת אחרים, מאת סטודיו גוס. ידוע לי כי באפשרותי להסיר את עצמי מרשימת התפוצה בכל עת.</label>
+<button type="submit">שלחי לי את המדריך</button></form>
+<div class="ok" id="ganok">תודה! המדריך בדרך אלייך למייל 💛<br><a href="https://www.studio-goose.co.il/wp-content/uploads/2026/10/mehabayit-lagan-v2.pdf">אפשר גם להוריד אותו כאן</a></div>
+<h2>מה יש בפנים</h2>
+<ol><li>הבוקר והפרידה</li><li>פרידה בגן, צעד אחר צעד</li><li>איחורים ויציאות באמצע היום</li><li>מה לספר לצוות, ומה לשאול</li><li>אחרי האיסוף: למה הוא מתפרק דווקא איתך</li><li>"הוא חזר אחורה": רגרסיות סביב הגן</li><li>כשמשהו מטריד אותך</li></ol>
+<div class="who"><b>למי זה מתאים?</b> להורים לילדים בני חצי שנה עד שלוש, בגן או לקראת גן. כתבתי אותו כמנהלת גן, מדריכת הורים ואמא, מתוך מה שאני רואה כל בוקר ליד הדלת.</div>
+<p class="f">שאלה? אפשר לכתוב לי <a href="https://wa.me/972544926293">בוואטסאפ</a> או <a href="https://ig.me/m/studio_goose_tlv">באינסטגרם</a> · <a href="https://www.studio-goose.co.il/links/">לכל הקישורים</a></p>
+</div>
+<script>(function(){var f=document.getElementById('ganf');if(!f)return;f.addEventListener('submit',function(e){e.preventDefault();var d=new URLSearchParams(new FormData(f));d.append('source','דף נחיתה מדריך הגן');fetch('https://hook.eu2.make.com/jslid7brvvwz0yxwwlitoc1ln2t3sbtc',{method:'POST',mode:'no-cors',body:d}).finally(function(){f.style.display='none';document.getElementById('ganok').style.display='block';});});})();</script>
+<!-- /wp:html -->
