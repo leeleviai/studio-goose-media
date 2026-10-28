@@ -19,6 +19,24 @@
   ]
  },
  {
+  "date": "2026-11-01",
+  "time": "09:22",
+  "unit": "nl",
+  "title": "הניוזלטר של סטודיו גוס",
+  "type": "carousel",
+  "folder": "queue/2026-11-01-nl",
+  "feed": [
+   "feed/01.jpg",
+   "feed/02.jpg",
+   "feed/03.jpg",
+   "feed/04.jpg",
+   "feed/05.jpg",
+   "feed/06.jpg"
+  ],
+  "stories": [],
+  "manual_stories": []
+ },
+ {
   "date": "2026-11-06",
   "time": "09:22",
   "unit": "u12",
