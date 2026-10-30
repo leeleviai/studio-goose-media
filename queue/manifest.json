@@ -475,6 +475,34 @@
   ]
  },
  {
+  "date": "2027-01-08",
+  "time": "13:22",
+  "unit": "hr2",
+  "title": "ההורה המרדים",
+  "type": "carousel",
+  "folder": "queue/2027-01-08-hr2",
+  "feed": [
+   "feed/01.jpg",
+   "feed/02.jpg",
+   "feed/03.jpg",
+   "feed/04.jpg",
+   "feed/05.jpg",
+   "feed/06.jpg",
+   "feed/07.jpg",
+   "feed/08.jpg"
+  ],
+  "stories": [
+   "stories/01.jpg",
+   "stories/03.jpg",
+   "stories/05.jpg"
+  ],
+  "manual_stories": [
+   "02",
+   "04",
+   "06"
+  ]
+ },
+ {
   "date": "2027-01-19",
   "time": "13:22",
   "unit": "u20",
