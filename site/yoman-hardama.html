@@ -4,115 +4,138 @@
   --bg:#F7F5ED; --surface:#FFFFFF; --ink:#2F3A2A; --muted:#6B7563; --line:#E3E0D3;
   --green:#647659; --green-soft:#E6EBDF; --orange:#EC6734; --peach:#FBE3D8; --on-accent:#FFFFFF;
   --serif:"Frank Ruhl Libre","David",Georgia,serif; --sans:"Assistant","Arial Hebrew",Arial,sans-serif;
-}.sgj{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.55}.sgj .wrap{max-width:720px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}.sgj h1,.sgj h2,.sgj h3{font-family:var(--serif);font-weight:500;margin:0;text-wrap:balance}.sgj h1{font-size:clamp(30px,6vw,42px);line-height:1.1}.sgj h2{font-size:24px}.sgj h3{font-size:19px}.sgj .lead{color:var(--muted);margin:8px 0 0;max-width:60ch}.sgj .eyebrow{display:inline-block;background:var(--orange);color:var(--on-accent);font-weight:700;font-size:13px;padding:2px 12px;border-radius:99px;margin-bottom:10px}.sgj .nights{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}.sgj .nb{font:inherit;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:14px;padding:8px 0 6px;display:grid;justify-items:center;gap:2px;cursor:pointer;min-width:0}.sgj .nb svg{width:26px;height:26px}.sgj .nb span{font-size:12px;font-weight:700;color:var(--muted)}.sgj .nb[aria-current="true"]{border-color:var(--orange);box-shadow:0 0 0 2px var(--orange) inset}.sgj .nb:focus-visible,.sgj .chip:focus-visible,.sgj button:focus-visible,.sgj input:focus-visible,.sgj textarea:focus-visible{outline:3px solid var(--orange);outline-offset:2px}.sgj .card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:20px;display:grid;gap:18px}.sgj .row{display:flex;flex-wrap:wrap;gap:14px}.sgj .field{display:grid;gap:6px;flex:1 1 150px;min-width:0}.sgj label,.sgj .lbl{font-weight:700;font-size:15px}.sgj .hint{font-size:13px;color:var(--muted);font-weight:400}.sgj input[type=time],.sgj textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:10px 12px;width:100%;box-sizing:border-box}.sgj textarea{min-height:76px;resize:vertical}.sgj .dur{background:var(--green-soft);border-radius:14px;padding:12px 14px;font-weight:700;display:flex;justify-content:space-between;align-items:baseline;gap:10px}.sgj .dur b{font-family:var(--serif);font-size:26px;font-weight:500;font-variant-numeric:tabular-nums}.sgj .chips{display:flex;flex-wrap:wrap;gap:8px}.sgj .chip{font:inherit;font-size:15px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:99px;padding:6px 14px;cursor:pointer}.sgj .chip[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:var(--on-accent)}.sgj .chip.hard[aria-pressed="true"]{background:var(--orange);border-color:var(--orange)}.sgj .scale{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}.sgj .scale .chip{border-radius:12px;padding:8px 4px;text-align:center;font-size:13px;line-height:1.25}.sgj .actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.sgj .btn{font:inherit;font-weight:700;border:0;border-radius:99px;padding:10px 20px;cursor:pointer;background:var(--orange);color:var(--on-accent)}.sgj .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}.sgj .saved{font-size:14px;color:var(--muted)}.sgj .ages{display:grid;gap:8px}.sgj .ages .chip[aria-pressed="true"]{background:var(--orange);border-color:var(--orange);color:var(--on-accent)}.sgj .sum{background:var(--green);color:var(--on-accent);border:0}.sgj .sum .muted{opacity:.85}.sgj .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.sgj .stat{background:color-mix(in srgb,var(--on-accent) 12%,transparent);border-radius:14px;padding:10px 12px;min-width:0}.sgj .stat b{display:block;font-family:var(--serif);font-weight:500;font-size:28px;font-variant-numeric:tabular-nums;line-height:1.1}.sgj .stat span{font-size:13px}.sgj .bars{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;align-items:end;height:110px}.sgj .bar{background:color-mix(in srgb,var(--on-accent) 22%,transparent);border-radius:8px 8px 3px 3px;position:relative;min-height:4px}.sgj .bar.has{background:var(--peach)}.sgj .bars-l{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;font-size:12px;text-align:center}.sgj .insight{font-size:16px;margin:0}.sgj .ex{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.04em;background:var(--peach);color:var(--ink);border-radius:99px;padding:1px 10px}.sgj .note{font-size:14px;color:var(--muted)}.sgj .mom{font-family:var(--serif);font-size:20px;line-height:1.4;border-inline-start:4px solid var(--orange);padding-inline-start:14px;margin:0}@media (max-width:440px){.sgj .stat b{font-size:22px}.sgj .stat span{font-size:12px}.sgj .scale .chip{font-size:12px}}
-@media (prefers-reduced-motion:no-preference){.sgj .chip,.sgj .nb{transition:background .15s,border-color .15s}}.sgj{direction:rtl;text-align:right}.sgj *{box-sizing:border-box}.sgj button{text-transform:none;letter-spacing:normal;line-height:1.3}</style>
+}.sgj{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.55}.sgj .wrap{max-width:720px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}.sgj h1,.sgj h2,.sgj h3{font-family:var(--serif);font-weight:500;margin:0;text-wrap:balance}.sgj h1{font-size:clamp(30px,6vw,42px);line-height:1.1}.sgj h2{font-size:24px}.sgj h3{font-size:19px}.sgj .lead{color:var(--muted);margin:8px 0 0;max-width:60ch}.sgj .eyebrow{display:inline-block;background:var(--orange);color:var(--on-accent);font-weight:700;font-size:13px;padding:2px 12px;border-radius:99px;margin-bottom:10px}.sgj .nights{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}.sgj .wk{font-size:13px;font-weight:700;color:var(--muted);margin:4px 0 2px}.sgj .sess{display:flex;gap:6px;flex-wrap:wrap}.sgj .sess .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}.sgj .where .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}.sgj .bars{grid-template-columns:repeat(14,1fr)!important;gap:4px!important}.sgj .bars-l{grid-template-columns:repeat(14,1fr)!important;gap:4px!important;font-size:11px!important}.sgj .split{font-size:15px;margin:0}.sgj .nb{font:inherit;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:14px;padding:8px 0 6px;display:grid;justify-items:center;gap:2px;cursor:pointer;min-width:0}.sgj .nb svg{width:26px;height:26px}.sgj .nb span{font-size:12px;font-weight:700;color:var(--muted)}.sgj .nb[aria-current="true"]{border-color:var(--orange);box-shadow:0 0 0 2px var(--orange) inset}.sgj .nb:focus-visible,.sgj .chip:focus-visible,.sgj button:focus-visible,.sgj input:focus-visible,.sgj textarea:focus-visible{outline:3px solid var(--orange);outline-offset:2px}.sgj .card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:20px;display:grid;gap:18px}.sgj .row{display:flex;flex-wrap:wrap;gap:14px}.sgj .field{display:grid;gap:6px;flex:1 1 150px;min-width:0}.sgj label,.sgj .lbl{font-weight:700;font-size:15px}.sgj .hint{font-size:13px;color:var(--muted);font-weight:400}.sgj input[type=time],.sgj textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:10px 12px;width:100%;box-sizing:border-box}.sgj textarea{min-height:76px;resize:vertical}.sgj .dur{background:var(--green-soft);border-radius:14px;padding:12px 14px;font-weight:700;display:flex;justify-content:space-between;align-items:baseline;gap:10px}.sgj .dur b{font-family:var(--serif);font-size:26px;font-weight:500;font-variant-numeric:tabular-nums}.sgj .chips{display:flex;flex-wrap:wrap;gap:8px}.sgj .chip{font:inherit;font-size:15px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:99px;padding:6px 14px;cursor:pointer}.sgj .chip[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:var(--on-accent)}.sgj .chip.hard[aria-pressed="true"]{background:var(--orange);border-color:var(--orange)}.sgj .scale{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}.sgj .scale .chip{border-radius:12px;padding:8px 4px;text-align:center;font-size:13px;line-height:1.25}.sgj .actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.sgj .btn{font:inherit;font-weight:700;border:0;border-radius:99px;padding:10px 20px;cursor:pointer;background:var(--orange);color:var(--on-accent)}.sgj .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}.sgj .saved{font-size:14px;color:var(--muted)}.sgj .ages{display:grid;gap:8px}.sgj .ages .chip[aria-pressed="true"]{background:var(--orange);border-color:var(--orange);color:var(--on-accent)}.sgj .sum{background:var(--green);color:var(--on-accent);border:0}.sgj .sum .muted{opacity:.85}.sgj .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.sgj .stat{background:color-mix(in srgb,var(--on-accent) 12%,transparent);border-radius:14px;padding:10px 12px;min-width:0}.sgj .stat b{display:block;font-family:var(--serif);font-weight:500;font-size:28px;font-variant-numeric:tabular-nums;line-height:1.1}.sgj .stat span{font-size:13px}.sgj .bars{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;align-items:end;height:110px}.sgj .bar{background:color-mix(in srgb,var(--on-accent) 22%,transparent);border-radius:8px 8px 3px 3px;position:relative;min-height:4px}.sgj .bar.has{background:var(--peach)}.sgj .bars-l{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;font-size:12px;text-align:center}.sgj .insight{font-size:16px;margin:0}.sgj .ex{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.04em;background:var(--peach);color:var(--ink);border-radius:99px;padding:1px 10px}.sgj .note{font-size:14px;color:var(--muted)}.sgj .mom{font-family:var(--serif);font-size:20px;line-height:1.4;border-inline-start:4px solid var(--orange);padding-inline-start:14px;margin:0}@media (max-width:440px){.sgj .stat b{font-size:22px}.sgj .stat span{font-size:12px}.sgj .scale .chip{font-size:12px}}@media (prefers-reduced-motion:no-preference){.sgj .chip,.sgj .nb{transition:background .15s,border-color .15s}}.sgj{direction:rtl;text-align:right}.sgj *{box-sizing:border-box}.sgj button{text-transform:none;letter-spacing:normal;line-height:1.3}</style>
 <div class="sgj"><div class="wrap" dir="rtl" lang="he">
   <header>
     <span class="eyebrow">סטודיו גוס · מועדון ההרדמות</span>
-    <h1>יומן הרדמה: 7 ערבים</h1>
-    <p class="lead">שתי דקות בכל ערב, אחרי שהוא נרדם. בסוף השבוע תראי מה באמת עוזר אצלכם, ומה מקשה. אין פה ציונים, רק התבוננות.</p>
+    <h1>יומן הרדמה: 14 יום</h1>
+    <p class="lead">שתי דקות אחרי כל הרדמה: בערב, בצהריים, ועד גיל שנה וחצי גם בבוקר. אחרי שבועיים תראי מה באמת עוזר אצלכם, ומה מקשה. אין פה ציונים, רק התבוננות.</p>
   </header>
 
   <section class="ages" aria-labelledby="agesT"><span class="lbl" id="agesT">בן כמה הוא?</span><div class="chips" id="ages"></div></section>
-  <nav class="nights" id="nights" aria-label="בחירת ערב"></nav>
+  <div><p class="wk">שבוע 1</p><nav class="nights" id="w1" aria-label="ימים 1 עד 7"></nav><p class="wk">שבוע 2</p><nav class="nights" id="w2" aria-label="ימים 8 עד 14"></nav></div>
 
   <section class="card" id="form" aria-labelledby="ft">
-    <h2 id="ft">ערב 1</h2>
+    <h2 id="ft">יום 1</h2>
+    <div class="sess" id="sess" aria-label="איזו הרדמה"></div>
     <div class="row">
       <div class="field"><label for="tBed">נכנס למיטה</label><input type="time" id="tBed"></div>
       <div class="field"><label for="tSleep">נרדם</label><input type="time" id="tSleep"></div>
     </div>
-    <div class="dur"><span>זמן ההרדמה הערב</span><b id="dur">–</b></div>
-    <div class="field"><span class="lbl">מה עזר הערב? <span class="hint">אפשר לבחור כמה</span></span><div class="chips" id="help"></div></div>
+    <div class="dur"><span id="durL">זמן ההרדמה</span><b id="dur">–</b></div>
+    <div class="field where"><span class="lbl">איפה נרדם?</span><div class="chips" id="where"></div></div>
+    <div class="field"><span class="lbl">מה עזר? <span class="hint">אפשר לבחור כמה</span></span><div class="chips" id="help"></div></div>
     <div class="field"><span class="lbl">מה הקשה? <span class="hint">אפשר לבחור כמה</span></span><div class="chips" id="hard"></div></div>
     <div class="field"><span class="lbl">ואת, איך היית?</span><div class="scale" id="mood"></div></div>
-    <div class="field"><label for="note">משפט אחד על הערב <span class="hint">לא חובה</span></label><textarea id="note" placeholder="למשל: ביקש את הדובי, ונרגע כשישבתי על הרצפה ליד המיטה."></textarea></div>
-    <div class="actions"><button class="btn" id="next" type="button">שמירה ומעבר לערב הבא</button><span class="saved" id="saved" role="status"></span></div>
+    <div class="field"><label for="note">משפט אחד <span class="hint">לא חובה</span></label><textarea id="note" placeholder="למשל: ביקש את הדובי, ונרגע כשישבתי על הרצפה ליד המיטה."></textarea></div>
+    <div class="actions"><button class="btn" id="next" type="button">שמירה</button><span class="saved" id="saved" role="status"></span></div>
   </section>
 
   <section class="card sum" aria-labelledby="st">
     <div><span class="ex" id="exTag" hidden>דוגמה</span><h2 id="st">הסיכום שלך</h2><p class="muted note" id="sumNote" style="color:inherit"></p></div>
     <div class="stats">
-      <div class="stat"><b id="sNights">0/7</b><span>ערבים מולאו</span></div>
-      <div class="stat"><b id="sAvg">–</b><span>דקות בממוצע</span></div>
-      <div class="stat"><b id="sBest">–</b><span>הערב הקצר ביותר</span></div>
+      <div class="stat"><b id="sDays">0/14</b><span>ימים מולאו</span></div>
+      <div class="stat"><b id="sAvg">–</b><span>דקות בממוצע בערב</span></div>
+      <div class="stat"><b id="sBed">–</b><span>נרדם במיטה</span></div>
     </div>
     <div>
-      <div class="bars" id="bars" aria-label="דקות הרדמה בכל ערב"></div>
+      <div class="bars" id="bars" aria-label="דקות הרדמת ערב בכל יום"></div>
       <div class="bars-l" id="barsL"></div>
     </div>
+    <p class="split" id="iSplit"></p>
+    <p class="insight" id="iWhere"></p>
     <p class="insight" id="iHelp"></p>
     <p class="insight" id="iHard"></p>
     <p class="insight" id="iMood"></p>
   </section>
 
-  <p class="mom">היומן לא בודק אותך. הוא עוזר לך לראות את הערבים מבחוץ, ומשם הרבה יותר קל לבחור מה לשנות.</p>
-  <p class="note">היומן נשמר רק בדפדפן בטלפון הזה. אם מנקים את נתוני הגלישה או פותחים בחלון פרטי, הוא מתחיל מחדש. <button class="btn ghost" id="reset" type="button">להתחיל שבוע חדש</button> <span id="resetAsk" hidden>למחוק את כל 7 הערבים? <button class="btn ghost" id="resetYes" type="button">כן, למחוק</button></span></p>
+  <p class="mom">היומן לא בודק אותך. הוא עוזר לך לראות את ההרדמות מבחוץ, ומשם הרבה יותר קל לבחור מה לשנות.</p>
+  <p class="note">היומן נשמר רק בדפדפן בטלפון הזה. אם מנקים את נתוני הגלישה או פותחים בחלון פרטי, הוא מתחיל מחדש. <button class="btn ghost" id="reset" type="button">להתחיל יומן חדש</button> <span id="resetAsk" hidden>למחוק את כל 14 הימים? <button class="btn ghost" id="resetYes" type="button">כן, למחוק</button></span></p>
 </div></div>
-
 <script>
+const COMMON_HELP_END=["רעש לבן","מוזיקה שקטה","טקס שינה","עוד מבוגר הרדים"];
 const AGES={
- baby:{label:"חצי שנה עד שנה וחצי",
-  help:["נרדם במיטה ואני לידו","יד על הגב או הבטן","שיר ערש","החלב לפני השיר","רעש לבן","חדר חשוך","שמיכה או בובה","רוטינה קבועה","עוד מבוגר הרדים"],
-  hard:["היה עייף מדי","לא היה עייף","בכה כשהנחתי במיטה","נרדם רק על הידיים או בהנקה","נעמד במיטה","שנ\"צ קצר או מאוחר","יום עמוס או שינוי","אני הייתי לחוצה או ממהרת"]},
- toddler:{label:"שנה וחצי עד שנתיים וחצי",
-  help:["סיפור","שיר","חיבוק","אור קטן","חפץ מעבר (דובי, שמיכה)","בחירה קטנה (פיג׳מה, ספר)","לוח הערב","ישבתי לידו בשקט","הנשימה האיטית שלי","רוטינה קבועה"],
-  hard:["\"לא!\" למקלחת או לפיג׳מה","\"עוד סיפור\"","רצה להירדם רק עליי","קם מהמיטה שוב ושוב","לא היה עייף","היה עייף מדי","מסך לפני השינה","יום עמוס או מעבר","אני הייתי לחוצה או ממהרת"]},
- kid:{label:"שנתיים וחצי ומעלה",
-  help:["סיפור","שיחה על היום","לוח הערב","אור לילה","חפץ מעבר","בדקנו ביחד שהחדר בטוח","ישבתי לידו בשקט","התרחקתי צעד קטן (מגיל 3)","הנשימה האיטית שלי","רוטינה קבועה"],
-  hard:["פחד מהחושך או ממפלצות","\"עוד שאלה אחת\"","עוד מים, פיפי, חיבוק","משא ומתן","קם מהמיטה שוב ושוב","לא היה עייף","מסך לפני השינה","חלום רע","אני הייתי לחוצה או ממהרת"]}};
-let age="toddler";
+ baby:{label:"חצי שנה עד שנה וחצי",sess:["morning","noon","eve"],
+  help:["יד על הגב או הבטן","שיר ערש","החלב לפני השיר","חדר חשוך","שמיכה או בובה",...COMMON_HELP_END],
+  hard:["היה עייף מדי","לא היה עייף","בכה כשהנחתי במיטה","נעמד במיטה","שנ\"צ קצר או מאוחר","יום עמוס או שינוי","אי נוחות בבטן","שיניים","נזלת","הלחץ שלי"]},
+ toddler:{label:"שנה וחצי עד שנתיים וחצי",sess:["noon","eve"],
+  help:["סיפור","שיר","חיבוק","אור קטן","חפץ מעבר (דובי, שמיכה)","בחירה קטנה (פיג׳מה, ספר)","ישבתי לידו בשקט","הנשימה האיטית שלי",...COMMON_HELP_END],
+  hard:["\"לא!\" למקלחת או לפיג׳מה","\"עוד סיפור\"","רצה להירדם רק עליי","קם מהמיטה שוב ושוב","לא היה עייף","היה עייף מדי","יום עמוס או מעבר","אי נוחות בבטן","שיניים","נזלת","הלחץ שלי"]},
+ kid:{label:"שנתיים וחצי ומעלה",sess:["noon","eve"],
+  help:["סיפור","שיחה על היום","אור לילה","חפץ מעבר","ישבתי לידו בשקט","התרחקתי מהמיטה","הנשימה האיטית שלי",...COMMON_HELP_END],
+  hard:["פחד מהחושך או ממפלצות","עוד מים, פיפי, חיבוק","משא ומתן","קם מהמיטה שוב ושוב","לא היה עייף","חלום רע","אי נוחות בבטן","שיניים","נזלת","הלחץ שלי"]}};
+const SESS={morning:"שנת בוקר",noon:"שנת צהריים",eve:"הרדמת ערב"};
+const WHERE=["במיטה","ידיים","מנשא","עגלה","נדנוד","ניענוע"];
 const MOOD=["רגועה","די רגועה","ככה ככה","לחוצה","על הקצה"];
-const KEY="goose-sleep-journal-v2";
-const EX=[[45,[0,2],[2],2],[35,[0,3],[6],1],[30,[3,7],[],0],[55,[0],[7,8],3],[30,[3,8],[],0],[30,[7,3],[2],1],[28,[3,8,0],[],0]];
-const exRows=()=>EX.map(([m,h,k,md])=>{const A=AGES[age];const t=19*60+30, e=t+m;const f=x=>String(Math.floor(x/60)).padStart(2,"0")+":"+String(x%60).padStart(2,"0");return {bed:f(t),sleep:f(e),help:h.map(i=>A.help[Math.min(i,A.help.length-1)]),hard:k.map(i=>A.hard[Math.min(i,A.hard.length-1)]),mood:md}});
-let data=Array.from({length:7},()=>({})), cur=0;
-try{const s=JSON.parse(localStorage.getItem(KEY)||"null");if(s&&Array.isArray(s.nights)&&s.nights.length===7){data=s.nights;if(AGES[s.age])age=s.age}}catch(e){}
-const save=()=>{try{localStorage.setItem(KEY,JSON.stringify({age,nights:data}));return true}catch(e){return false}};
+const KEY="goose-sleep-journal-v3", DAYS=14;
+let age="toddler", data=Array.from({length:DAYS},()=>({})), cur=0, ses="eve";
+try{const s=JSON.parse(localStorage.getItem(KEY)||"null");if(s&&Array.isArray(s.days)&&s.days.length===DAYS){data=s.days;if(AGES[s.age])age=s.age}}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify({age,days:data}));return true}catch(e){return false}};
 const $=id=>document.getElementById(id);
+const esc=t=>String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
 const mins=n=>{if(!n||!n.bed||!n.sleep)return null;const[a,b]=n.bed.split(":").map(Number),[c,d]=n.sleep.split(":").map(Number);let m=(c*60+d)-(a*60+b);if(m<0)m+=1440;return m>300?null:m};
-const filled=n=>n&&(n.bed||n.sleep||(n.help&&n.help.length)||(n.hard&&n.hard.length)||n.mood!=null||n.note);
-const moon=(state)=>state==="full"?`<svg viewBox="0 0 26 26"><circle cx="13" cy="13" r="10" fill="var(--orange)"/></svg>`:state==="half"?`<svg viewBox="0 0 26 26"><circle cx="13" cy="13" r="10" fill="none" stroke="var(--orange)" stroke-width="2"/><path d="M13 3a10 10 0 0 1 0 20z" fill="var(--orange)"/></svg>`:`<svg viewBox="0 0 26 26"><circle cx="13" cy="13" r="10" fill="none" stroke="var(--muted)" stroke-width="2" stroke-dasharray="3 3"/></svg>`;
-
-function renderNav(){$("nights").innerHTML=data.map((n,i)=>{const st=mins(n)!=null?"full":filled(n)?"half":"empty";return `<button type="button" class="nb" data-i="${i}" aria-current="${i===cur}" aria-label="ערב ${i+1}">${moon(st)}<span>ערב ${i+1}</span></button>`}).join("")}
-function chips(el,list,sel,cls){el.innerHTML=list.map(t=>`<button type="button" class="chip ${cls}" aria-pressed="${sel.includes(t)}">${t.replace(/</g,"&lt;")}</button>`).join("")}
-function renderForm(){const n=data[cur];$("ft").textContent="ערב "+(cur+1);$("tBed").value=n.bed||"";$("tSleep").value=n.sleep||"";$("note").value=n.note||"";
- chips($("help"),AGES[age].help,n.help||[],"");chips($("hard"),AGES[age].hard,n.hard||[],"hard");
+const filled=n=>n&&(n.bed||n.sleep||n.where||(n.help&&n.help.length)||(n.hard&&n.hard.length)||n.mood!=null||n.note);
+const dayFilled=d=>Object.values(d||{}).some(filled);
+const moon=st=>st==="full"?`<svg viewBox="0 0 26 26"><circle cx="13" cy="13" r="10" fill="var(--orange)"/></svg>`:st==="half"?`<svg viewBox="0 0 26 26"><circle cx="13" cy="13" r="10" fill="none" stroke="var(--orange)" stroke-width="2"/><path d="M13 3a10 10 0 0 1 0 20z" fill="var(--orange)"/></svg>`:`<svg viewBox="0 0 26 26"><circle cx="13" cy="13" r="10" fill="none" stroke="var(--muted)" stroke-width="2" stroke-dasharray="3 3"/></svg>`;
+// example rows (only shown until the first real entry)
+function example(){const A=AGES[age];const ev=[45,40,35,50,30,35,30,32,28,40,25,27,25,22],nb=[25,20,30,15,20,25,18,20,15,22,15,12,15,10];
+ const wh=i=>i<5?(i%2?"ידיים":"נדנוד"):i<9?(i%3?"במיטה":"ידיים"):"במיטה";
+ return ev.map((m,i)=>{const d={};const f=(t,x)=>{const h=Math.floor((t+x)/60),mm=(t+x)%60;return String(h).padStart(2,"0")+":"+String(mm).padStart(2,"0")};
+  d.eve={bed:"19:30",sleep:f(19*60+30,m),where:wh(i),help:[A.help[i%3],A.help[A.help.length-2]],hard:i%4===3?[A.hard[A.hard.length-1]]:i%5===0?[A.hard[0]]:[],mood:i%4===3?3:i<7?1:0};
+  d.noon={bed:"12:30",sleep:f(12*60+30,nb[i]),where:wh(i+2),help:[A.help[1]],hard:[],mood:1};
+  if(A.sess.includes("morning"))d.morning={bed:"09:30",sleep:f(9*60+30,nb[i]-5),where:wh(i),help:[A.help[0]],hard:[],mood:0};
+  return d})}
+function renderAges(){$("ages").innerHTML=Object.entries(AGES).map(([k,v])=>`<button type="button" class="chip" data-age="${k}" aria-pressed="${k===age}">${v.label}</button>`).join("")}
+function renderDays(){const b=i=>{const d=data[i]||{};const st=mins(d.eve)!=null?"full":dayFilled(d)?"half":"empty";return `<button type="button" class="nb" data-i="${i}" aria-current="${i===cur}" aria-label="יום ${i+1}">${moon(st)}<span>יום ${i+1}</span></button>`};
+ $("w1").innerHTML=[0,1,2,3,4,5,6].map(b).join("");$("w2").innerHTML=[7,8,9,10,11,12,13].map(b).join("")}
+function chips(el,list,sel,cls,attr){el.innerHTML=list.map(t=>`<button type="button" class="chip ${cls}" ${attr?`data-${attr}="${esc(t)}"`:""} aria-pressed="${Array.isArray(sel)?sel.includes(t):sel===t}">${esc(t)}</button>`).join("")}
+function renderForm(){if(!AGES[age].sess.includes(ses))ses="eve";const n=(data[cur]||{})[ses]||{};
+ $("ft").textContent="יום "+(cur+1);
+ $("sess").innerHTML=AGES[age].sess.map(k=>{const done=filled((data[cur]||{})[k]);return `<button type="button" class="chip" data-s="${k}" aria-pressed="${k===ses}">${SESS[k]}${done?" ✓":""}</button>`}).join("");
+ $("tBed").value=n.bed||"";$("tSleep").value=n.sleep||"";$("note").value=n.note||"";
+ chips($("where"),WHERE,n.where||"","","w");chips($("help"),AGES[age].help,n.help||[],"");chips($("hard"),AGES[age].hard,n.hard||[],"hard");
  $("mood").innerHTML=MOOD.map((m,i)=>`<button type="button" class="chip" data-m="${i}" aria-pressed="${n.mood===i}">${m}</button>`).join("");
- const d=mins(n);$("dur").textContent=d==null?"–":d+" דקות";$("next").textContent=cur<6?"שמירה ומעבר לערב הבא":"שמירה וסיכום";$("saved").textContent=""}
-function tally(rows,key){const c={};rows.forEach(n=>(n[key]||[]).forEach(t=>c[t]=(c[t]||0)+1));return Object.entries(c).sort((a,b)=>b[1]-a[1])}
-function renderSum(){const real=data.filter(filled).length>0, rows=real?data:exRows();
- $("exTag").hidden=real;$("st").textContent=real?"הסיכום שלך":"כך ייראה הסיכום אחרי שבוע";
- $("sumNote").textContent=real?"מתעדכן בכל ערב שאת ממלאה.":"אלה נתונים לדוגמה בלבד. ברגע שתמלאי את הערב הראשון, יופיעו כאן הנתונים שלך.";
- const ms=rows.map(mins), got=ms.filter(m=>m!=null);
- $("sNights").textContent=rows.filter(filled).length+"/7";
- $("sAvg").textContent=got.length?Math.round(got.reduce((a,b)=>a+b,0)/got.length):"–";
- const best=got.length?Math.min(...got):null;$("sBest").textContent=best==null?"–":best+"′";
- const max=Math.max(60,...got);$("bars").innerHTML=ms.map(m=>`<div class="bar ${m!=null?"has":""}" style="height:${m==null?4:Math.max(8,m/max*100)}%" title="${m==null?"":m+" דקות"}"></div>`).join("");
- $("barsL").innerHTML=ms.map((m,i)=>`<span>${m==null?"ערב "+(i+1):m+"′"}</span>`).join("");
- const h=tally(rows,"help"),k=tally(rows,"hard");
- // what showed up on the shorter nights
- let shortHelp="";if(got.length>=3){const med=[...got].sort((a,b)=>a-b)[Math.floor(got.length/2)];const sh=tally(rows.filter((n,i)=>ms[i]!=null&&ms[i]<=med),"help");if(sh.length)shortHelp=` בערבים הקצרים יותר חזר במיוחד: ${sh[0][0]}.`}
- $("iHelp").innerHTML=h.length?`<b>מה עזר הכי הרבה:</b> ${h.slice(0,3).map(([t,c])=>`${t} (${c})`).join(", ")}.${shortHelp}`:"<b>מה עזר:</b> עוד לא סימנת.";
- $("iHard").innerHTML=k.length?`<b>מה הקשה הכי הרבה:</b> ${k.slice(0,2).map(([t,c])=>`${t} (${c})`).join(", ")}. שווה לחשוב מה מזה אפשר להזיז קצת מוקדם יותר בערב.`:"<b>מה הקשה:</b> שום דבר לא חזר על עצמו. יופי.";
- const md=rows.map((n,i)=>[n.mood,ms[i]]).filter(([a,b])=>a!=null&&b!=null);
- let mt="";if(md.length>=3){const calm=md.filter(([a])=>a<=1).map(([,b])=>b),tense=md.filter(([a])=>a>=3).map(([,b])=>b);
-  if(calm.length&&tense.length){const av=x=>Math.round(x.reduce((a,b)=>a+b,0)/x.length);mt=`<b>את וההרדמה:</b> בערבים שהיית רגועה ההרדמה לקחה בממוצע ${av(calm)} דקות, ובערבים שהיית לחוצה ${av(tense)} דקות.`}}
- $("iMood").innerHTML=mt||"<b>את וההרדמה:</b> אחרי כמה ערבים נראה כאן אם יש קשר בין איך שאת מרגישה לבין משך ההרדמה."}
-function store(){const n=data[cur];n.bed=$("tBed").value;n.sleep=$("tSleep").value;n.note=$("note").value.trim();
+ const d=mins(n);$("durL").textContent="זמן ההרדמה ("+SESS[ses]+")";$("dur").textContent=d==null?"–":d+" דקות";$("saved").textContent=""}
+const tally=(rows,f)=>{const c={};rows.forEach(n=>[].concat(f(n)||[]).forEach(t=>c[t]=(c[t]||0)+1));return Object.entries(c).sort((a,b)=>b[1]-a[1])};
+const avg=a=>a.length?Math.round(a.reduce((x,y)=>x+y,0)/a.length):null;
+function renderSum(){const real=data.some(dayFilled), days=real?data:example();
+ $("exTag").hidden=real;$("st").textContent=real?"הסיכום שלך":"כך ייראה הסיכום אחרי שבועיים";
+ $("sumNote").textContent=real?"מתעדכן בכל הרדמה שאת ממלאה.":"אלה נתונים לדוגמה בלבד. ברגע שתמלאי את ההרדמה הראשונה, יופיעו כאן הנתונים שלך.";
+ const all=[];days.forEach(d=>AGES[age].sess.forEach(k=>{if(filled((d||{})[k]))all.push({...d[k],k})}));
+ const ev=days.map(d=>mins((d||{}).eve));const evGot=ev.filter(m=>m!=null);
+ $("sDays").textContent=days.filter(dayFilled).length+"/14";$("sAvg").textContent=avg(evGot)??"–";
+ const withW=all.filter(n=>n.where);const inBed=withW.filter(n=>n.where==="במיטה").length;$("sBed").textContent=withW.length?inBed+"/"+withW.length:"–";
+ const max=Math.max(60,...evGot);$("bars").innerHTML=ev.map(m=>`<div class="bar ${m!=null?"has":""}" style="height:${m==null?4:Math.max(8,m/max*100)}%" title="${m==null?"":m+" דקות"}"></div>`).join("");
+ $("barsL").innerHTML=ev.map((m,i)=>`<span>${m==null?i+1:m}</span>`).join("");
+ $("iSplit").innerHTML="<b>ממוצע לפי הרדמה:</b> "+AGES[age].sess.map(k=>{const a=avg(days.map(d=>mins((d||{})[k])).filter(x=>x!=null));return SESS[k]+" "+(a==null?"–":a+" דק׳")}).join(" · ");
+ const wk=(from,to)=>{const r=[];days.slice(from,to).forEach(d=>AGES[age].sess.forEach(k=>{const n=(d||{})[k];if(n&&n.where)r.push(n.where)}));return r};
+ const w1=wk(0,7),w2=wk(7,14);const wt=tally(all,n=>n.where);
+ $("iWhere").innerHTML=wt.length?`<b>איפה נרדם:</b> ${wt.map(([t,c])=>`${t} (${c})`).join(", ")}.`+(w1.length&&w2.length?` בשבוע הראשון נרדם במיטה ${w1.filter(x=>x==="במיטה").length} מתוך ${w1.length} פעמים, ובשבוע השני ${w2.filter(x=>x==="במיטה").length} מתוך ${w2.length}.`:""):"<b>איפה נרדם:</b> עוד לא סימנת.";
+ const h=tally(all,n=>n.help),k=tally(all,n=>n.hard);
+ const bedHelp=tally(all.filter(n=>n.where==="במיטה"),n=>n.help);
+ $("iHelp").innerHTML=h.length?`<b>מה עזר הכי הרבה:</b> ${h.slice(0,3).map(([t,c])=>`${t} (${c})`).join(", ")}.`+(bedHelp.length?` בהרדמות שבהן נרדם במיטה חזר במיוחד: ${bedHelp[0][0]}.`:""):"<b>מה עזר:</b> עוד לא סימנת.";
+ $("iHard").innerHTML=k.length?`<b>מה הקשה הכי הרבה:</b> ${k.slice(0,3).map(([t,c])=>`${t} (${c})`).join(", ")}.`:"<b>מה הקשה:</b> שום דבר לא חזר על עצמו. יופי.";
+ const md=all.map(n=>[n.mood,mins(n)]).filter(([a,b])=>a!=null&&b!=null);let mt="";
+ if(md.length>=3){const calm=md.filter(([a])=>a<=1).map(([,b])=>b),tense=md.filter(([a])=>a>=3).map(([,b])=>b);if(calm.length&&tense.length)mt=`<b>את וההרדמה:</b> כשהיית רגועה ההרדמה לקחה בממוצע ${avg(calm)} דקות, וכשהיית לחוצה ${avg(tense)} דקות.`}
+ $("iMood").innerHTML=mt||"<b>את וההרדמה:</b> אחרי כמה הרדמות נראה כאן אם יש קשר בין איך שאת מרגישה לבין משך ההרדמה."}
+function store(){const d=data[cur]=data[cur]||{};const n=d[ses]=d[ses]||{};n.bed=$("tBed").value;n.sleep=$("tSleep").value;n.note=$("note").value.trim();
+ const w=$("where").querySelector('[aria-pressed="true"]');n.where=w?w.dataset.w:"";
  n.help=[...$("help").querySelectorAll('[aria-pressed="true"]')].map(b=>b.textContent);
  n.hard=[...$("hard").querySelectorAll('[aria-pressed="true"]')].map(b=>b.textContent);
  const m=$("mood").querySelector('[aria-pressed="true"]');n.mood=m?+m.dataset.m:null;
- const d=mins(n);$("dur").textContent=d==null?"–":d+" דקות";const ok=save();renderNav();renderSum();return ok}
-document.addEventListener("click",e=>{const ag=e.target.closest("[data-age]");if(ag){store();age=ag.dataset.age;save();renderAges();renderForm();renderSum();return}
- const nb=e.target.closest(".nb");if(nb){store();cur=+nb.dataset.i;renderNav();renderForm();return}
- const c=e.target.closest(".chip");if(c&&!c.dataset.age){if(c.dataset.m!=null)$("mood").querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed","false"));c.setAttribute("aria-pressed",c.getAttribute("aria-pressed")!=="true");store();return}});
+ const dd=mins(n);$("dur").textContent=dd==null?"–":dd+" דקות";const ok=save();renderDays();renderSum();
+ $("sess").querySelectorAll("[data-s]").forEach(b=>{b.textContent=SESS[b.dataset.s]+(filled(d[b.dataset.s])?" ✓":"")});return ok}
+document.addEventListener("click",e=>{
+ const ag=e.target.closest("[data-age]");if(ag){store();age=ag.dataset.age;save();renderAges();renderForm();renderSum();return}
+ const nb=e.target.closest(".nb");if(nb){store();cur=+nb.dataset.i;renderDays();renderForm();return}
+ const ss=e.target.closest("[data-s]");if(ss){store();ses=ss.dataset.s;renderForm();return}
+ const w=e.target.closest("[data-w]");if(w){const on=w.getAttribute("aria-pressed")!=="true";$("where").querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed","false"));w.setAttribute("aria-pressed",on);store();return}
+ const c=e.target.closest(".chip");if(c&&c.closest("#help,#hard,#mood")){if(c.dataset.m!=null)$("mood").querySelectorAll(".chip").forEach(x=>{if(x!==c)x.setAttribute("aria-pressed","false")});c.setAttribute("aria-pressed",c.getAttribute("aria-pressed")!=="true");store();return}});
 ["tBed","tSleep","note"].forEach(id=>$(id).addEventListener("input",store));
-$("next").addEventListener("click",()=>{const ok=store();$("saved").textContent=ok?"נשמר":"לא הצלחתי לשמור בדפדפן הזה";if(cur<6){cur++;renderNav();renderForm();$("form").scrollIntoView({block:"start"})}else{document.querySelector(".sum").scrollIntoView({block:"start"})}});
+$("next").addEventListener("click",()=>{const ok=store();$("saved").textContent=ok?"נשמר":"לא הצלחתי לשמור בדפדפן הזה"});
 $("reset").addEventListener("click",()=>{$("resetAsk").hidden=false});
-$("resetYes").addEventListener("click",()=>{data=Array.from({length:7},()=>({}));cur=0;save();$("resetAsk").hidden=true;renderNav();renderForm();renderSum()});
-cur=Math.max(0,Math.min(6,data.findIndex(n=>!filled(n))===-1?6:data.findIndex(n=>!filled(n))));
-function renderAges(){$("ages").innerHTML=Object.entries(AGES).map(([k,v])=>`<button type="button" class="chip" data-age="${k}" aria-pressed="${k===age}">${v.label}</button>`).join("")}
-renderAges();renderNav();renderForm();renderSum();
+$("resetYes").addEventListener("click",()=>{data=Array.from({length:DAYS},()=>({}));cur=0;save();$("resetAsk").hidden=true;renderDays();renderForm();renderSum()});
+{const i=data.findIndex(d=>!dayFilled(d));cur=i===-1?DAYS-1:Math.max(0,i)}
+renderAges();renderDays();renderForm();renderSum();
 </script>
 <!-- /wp:html -->
