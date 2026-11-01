@@ -60,6 +60,26 @@
   ]
  },
  {
+  "date": "2026-11-06",
+  "time": "17:22",
+  "unit": "about",
+  "title": "נעים להכיר: מי אני והגישה שלי",
+  "type": "carousel",
+  "folder": "queue/2026-11-06-about",
+  "feed": [
+   "feed/01.jpg",
+   "feed/02.jpg",
+   "feed/03.jpg",
+   "feed/04.jpg",
+   "feed/05.jpg",
+   "feed/06.jpg",
+   "feed/07.jpg",
+   "feed/08.jpg"
+  ],
+  "stories": [],
+  "manual_stories": []
+ },
+ {
   "date": "2026-11-09",
   "time": "13:22",
   "unit": "u05",
