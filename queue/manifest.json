@@ -43,25 +43,6 @@
  {
   "date": "2026-11-06",
   "time": "09:22",
-  "unit": "u12",
-  "title": "אבא בלילה",
-  "type": "image",
-  "folder": "queue/2026-11-06-u12",
-  "feed": [
-   "feed/01.jpg"
-  ],
-  "stories": [
-   "stories/01.jpg",
-   "stories/03.jpg"
-  ],
-  "manual_stories": [
-   "02",
-   "04"
-  ]
- },
- {
-  "date": "2026-11-06",
-  "time": "17:22",
   "unit": "about",
   "title": "נעים להכיר: מי אני והגישה שלי",
   "type": "carousel",
@@ -285,6 +266,25 @@
    "02",
    "04",
    "06"
+  ]
+ },
+ {
+  "date": "2026-12-21",
+  "time": "09:22",
+  "unit": "u12",
+  "title": "אבא בלילה",
+  "type": "image",
+  "folder": "queue/2026-11-06-u12",
+  "feed": [
+   "feed/01.jpg"
+  ],
+  "stories": [
+   "stories/01.jpg",
+   "stories/03.jpg"
+  ],
+  "manual_stories": [
+   "02",
+   "04"
   ]
  },
  {
