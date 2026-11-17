@@ -1,0 +1,207 @@
+<!-- wp:html -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&family=Frank+Ruhl+Libre:wght@500;700&display=swap">
+<style>
+.ay{--g:#647659;--gd:#4F5F46;--o:#EC6734;--od:#B84A1E;--c:#F7F5ED;--p:#FBE3D8;--s:#E3E8DC;--ink:#2F3A2A;--mut:#5A554D;--line:#E3E0D5;direction:rtl;font-family:Assistant,Arial,sans-serif;color:var(--ink);font-size:18px;line-height:1.65;background:#fff}
+.ay *{box-sizing:border-box}
+.ay .w{max-width:1040px;margin:0 auto;padding:0 22px}
+.ay h1,.ay h2,.ay h3{font-family:'Frank Ruhl Libre',serif;font-weight:500;line-height:1.15;margin:0;color:var(--ink)}
+.ay .pill{display:inline-block;background:var(--o);color:#fff;font-weight:800;font-size:15px;padding:6px 16px;border-radius:999px}
+.ay .pill.c{background:var(--c);color:var(--od)}
+.ay .btn{display:inline-block;background:var(--o);color:#fff!important;font-weight:800;font-size:19px;padding:15px 34px;border-radius:999px;text-decoration:none;transition:transform .15s,background .15s}
+.ay .btn:hover{background:var(--od);transform:translateY(-2px)}
+.ay .btn.l{background:#fff;color:var(--od)!important}
+.ay section{padding:64px 0}
+.ay .eyebrow{color:var(--o);font-weight:800;font-size:15px;letter-spacing:.02em;margin-bottom:8px}
+.ay h2{font-size:38px;margin-bottom:14px}
+.ay .lead{font-size:19px;color:var(--mut);max-width:680px}
+/* hero */
+.ay .hero{background:var(--c);position:relative;overflow:hidden;padding:72px 0 64px}
+.ay .hero:before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:var(--p);left:-180px;top:-200px}
+.ay .hero .w{position:relative;display:grid;grid-template-columns:1.25fr .75fr;gap:44px;align-items:center}
+.ay .hero h1{font-size:64px;margin:16px 0 10px}
+.ay .hero .sub{font-size:22px;color:var(--mut);margin:0 0 26px}
+.ay .facts{display:flex;flex-wrap:wrap;gap:10px 22px;margin:0 0 28px;padding:0;list-style:none;font-weight:700;font-size:16px}
+.ay .facts li:before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--g);margin-left:8px}
+.ay .price{display:flex;align-items:baseline;gap:12px;margin-bottom:18px}
+.ay .price b{font-size:40px;font-family:'Frank Ruhl Libre',serif;font-weight:700}
+.ay .price s{color:var(--mut);font-size:20px}
+.ay .price span{background:var(--p);color:var(--od);font-weight:800;font-size:14px;padding:4px 12px;border-radius:999px}
+.ay .note{font-size:14px;color:var(--mut);margin-top:12px}
+.ay .phone{background:#fff;border-radius:34px;padding:14px;box-shadow:0 24px 50px rgba(47,58,42,.16);transform:rotate(-3deg)}
+.ay .phone img{width:100%;display:block;border-radius:22px}
+/* why */
+.ay .why{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.ay .quote{border-right:4px solid var(--o);padding:4px 22px 4px 0;font-family:'Frank Ruhl Libre',serif;font-size:27px;line-height:1.35;margin:18px 0 0}
+.ay .fit{background:var(--s);border-radius:22px;padding:28px 30px}
+.ay .fit h3{font-size:24px;margin-bottom:12px}
+.ay .fit ul{margin:0;padding:0;list-style:none}
+.ay .fit li{position:relative;padding-right:30px;margin-bottom:10px}
+.ay .fit li:before{content:"✓";position:absolute;right:0;top:0;color:var(--gd);font-weight:800}
+/* how */
+.ay .bg{background:var(--c)}
+.ay .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:30px}
+.ay .step{background:#fff;border-radius:20px;padding:24px 22px;border:1px solid var(--line)}
+.ay .step i{font-style:normal;display:flex;width:44px;height:44px;border-radius:50%;background:var(--p);color:var(--od);font-weight:800;font-size:20px;align-items:center;justify-content:center;margin-bottom:14px}
+.ay .step h3{font-size:21px;margin-bottom:6px}
+.ay .step p{margin:0;font-size:16px;color:var(--mut)}
+/* program */
+.ay .days{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:30px}
+.ay .day{display:grid;grid-template-columns:64px 1fr;gap:16px;align-items:start;border:1px solid var(--line);border-radius:18px;padding:18px 20px;background:#fff}
+.ay .day .n{background:var(--g);color:#fff;border-radius:14px;text-align:center;padding:8px 0;font-weight:800;line-height:1.1;font-size:13px}
+.ay .day .n b{display:block;font-size:26px;font-family:'Frank Ruhl Libre',serif}
+.ay .day h3{font-size:21px;margin-bottom:4px}
+.ay .day p{margin:0;font-size:16px;color:var(--mut)}
+.ay .day.last{grid-column:1/-1;background:var(--s);border-color:var(--s)}
+/* get */
+.ay .get{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center}
+.ay .items{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px}
+.ay .item{background:#fff;border-radius:18px;padding:20px;border:1px solid var(--line)}
+.ay .item b{display:block;font-family:'Frank Ruhl Libre',serif;font-size:30px;color:var(--o);line-height:1}
+.ay .item span{display:block;font-weight:700;margin-top:6px}
+.ay .item small{display:block;color:var(--mut);font-size:15px}
+.ay .cards{position:relative;height:440px}
+.ay .cards img{position:absolute;width:300px;border-radius:16px;box-shadow:0 18px 40px rgba(47,58,42,.18)}
+.ay .cards img:first-child{right:0;top:0;transform:rotate(3deg)}
+.ay .cards img:last-child{left:0;bottom:0;transform:rotate(-4deg)}
+/* about */
+.ay .about{background:var(--g);color:#fff;border-radius:28px;padding:44px 48px;display:grid;grid-template-columns:auto 1fr;gap:34px;align-items:center}
+.ay .about .badge{width:120px;height:120px;border-radius:50%;background:var(--c);display:flex;align-items:center;justify-content:center;font-family:'Frank Ruhl Libre',serif;font-size:40px;color:var(--gd)}
+.ay .about h2{color:#fff;font-size:32px}
+.ay .about p{margin:8px 0 0;color:#EEF1E9}
+/* faq */
+.ay details{border-bottom:1px solid var(--line);padding:18px 0}
+.ay summary{cursor:pointer;font-weight:800;font-size:19px;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.ay summary::-webkit-details-marker{display:none}
+.ay summary:after{content:"+";color:var(--o);font-size:26px;line-height:1}
+.ay details[open] summary:after{content:"–"}
+.ay details p{margin:10px 0 0;color:var(--mut)}
+/* final */
+.ay .final{background:var(--o);color:#fff;text-align:center;border-radius:28px;padding:54px 28px}
+.ay .final h2{color:#fff;font-size:40px}
+.ay .final p{color:#FFE9DF;font-size:19px;margin:8px auto 26px;max-width:560px}
+.ay .final .note{color:#FFE9DF}
+@media (max-width:820px){
+ .ay section{padding:46px 0}
+ .ay .hero{padding:44px 0}
+ .ay .hero .w,.ay .why,.ay .get,.ay .about{grid-template-columns:1fr}
+ .ay .hero h1{font-size:46px}
+ .ay h2{font-size:30px}
+ .ay .phone{max-width:300px;margin:0 auto}
+ .ay .steps{grid-template-columns:1fr 1fr}
+ .ay .days{grid-template-columns:1fr}
+ .ay .cards{height:360px;max-width:420px;margin:0 auto}
+ .ay .cards img{width:230px}
+ .ay .about{padding:32px 26px;text-align:center}
+ .ay .about .badge{margin:0 auto}
+}
+@media (max-width:480px){.ay .steps,.ay .items{grid-template-columns:1fr}}
+</style>
+<div class="ay">
+
+<section class="hero"><div class="w">
+ <div>
+  <span class="pill">קורס וואטסאפ · 7 ימים</span>
+  <h1>אני יכול!</h1>
+  <p class="sub">7 ימים של קשר, ביטחון ועצמאות, להורים לילדים בני שנה עד שלוש</p>
+  <ul class="facts"><li>29.11–6.12, בלי שבת</li><li>כל בוקר ב־9:30</li><li>10–15 דקות ביום</li><li>מהבית, בקצב שלך</li></ul>
+  <div class="price"><b>99 ₪</b><s>149 ₪</s><span>מחיר השקה עד 26.11</span></div>
+  <a class="btn" href="https://pay.grow.link/MTUyNTA~417e7e12c8648726c89fe0aae6986a61-NDE4NDM2NA">להרשמה לקורס</a>
+  <p class="note">אחרי התשלום מגיע מייל עם הקישור לקבוצה.</p>
+ </div>
+ <div class="phone"><img src="https://www.studio-goose.co.il/wp-content/uploads/2026/10/ani-yachol-card-1.png" alt="כרטיס הסיכום של היום הראשון בקורס"></div>
+</div></section>
+
+<section><div class="w why">
+ <div>
+  <div class="eyebrow">למה הקורס הזה</div>
+  <h2>ילד שמרגיש שרואים אותו, יוצא לנסות לבד</h2>
+  <p class="lead">"אני לבד!" הוא אחד המשפטים הכי חשובים בגיל הזה. הרצון לעשות לבד צומח מתוך ביטחון, והביטחון נבנה ברגעים הקטנים של היום: מבט, מילה, תגובה כשמשהו נשפך.</p>
+  <p class="quote">בקורס אנחנו לא מוסיפים עוד משימה לרשימה. משנים קצת את הרגעים שכבר קיימים.</p>
+ </div>
+ <div class="fit">
+  <h3>הקורס מתאים לך אם</h3>
+  <ul>
+   <li>יש לך ילד או ילדה בני שנה עד שלוש</li>
+   <li>את רוצה יותר קשר ופחות מאבקים ביום־יום</li>
+   <li>חשוב לך לעודד עצמאות, בלי לדחוק ובלי לוותר</li>
+   <li>אין לך זמן לערבים בחוץ, ומתאים לך ללמוד מהבית</li>
+   <li>את אוהבת כלים מעשיים שאפשר לנסות כבר היום</li>
+  </ul>
+ </div>
+</div></section>
+
+<section class="bg"><div class="w">
+ <div class="eyebrow">איך זה עובד</div>
+ <h2>כל יום, ארבעה דברים קטנים</h2>
+ <p class="lead">קבוצת וואטסאפ שקטה: רק אני מפרסמת בה, כדי שהטלפון לא יקפוץ כל רגע. הכול נשאר בקבוצה, ואפשר להקשיב מתי שנוח.</p>
+ <div class="steps">
+  <div class="step"><i>1</i><h3>הודעה קצרה</h3><p>ב־9:30 בבוקר: הנושא של היום והרעיון המרכזי.</p></div>
+  <div class="step"><i>2</i><h3>הקלטה של 3–4 דקות</h3><p>הסבר קצר עם דוגמאות מהבית ומהגן. אפשר להקשיב בדרך.</p></div>
+  <div class="step"><i>3</i><h3>משימה של 5–10 דקות</h3><p>משהו אחד לעשות עם הילד, בתוך השגרה הרגילה.</p></div>
+  <div class="step"><i>4</i><h3>כרטיס סיכום</h3><p>כל הנקודות של היום בכרטיס אחד, לשמור או לתלות על המקרר.</p></div>
+ </div>
+</div></section>
+
+<section><div class="w">
+ <div class="eyebrow">התוכנית</div>
+ <h2>7 ימים, נושא אחד בכל יום</h2>
+ <div class="days">
+  <div class="day"><div class="n">יום<b>1</b></div><div><h3>עיניים שרואות אותי</h3><p>ההבדל בין להיות "ליד" הילד לבין להיות "עם" הילד, ולמה הוא מרגיש אותו מהר.</p></div></div>
+  <div class="day"><div class="n">יום<b>2</b></div><div><h3>נקודות חיבור קטנות</h3><p>הרגעים הקטנים של היום שממלאים לו את המכל: חיבוק של הגעה, רגע של יחד אחרי הגן.</p></div></div>
+  <div class="day"><div class="n">יום<b>3</b></div><div><h3>זמן מיוחד: הוא מוביל</h3><p>עשר דקות ביום שבהן הוא מחליט, ואיך מצטרפים למשחק בלי לנהל אותו.</p></div></div>
+  <div class="day"><div class="n">יום<b>4</b></div><div><h3>המילים שלנו הן הקול הפנימי שלו</h3><p>מה אומרים במקום "כל הכבוד", כדי לעודד אותו לנסות גם כשקשה.</p></div></div>
+  <div class="day"><div class="n">יום<b>5</b></div><div><h3>"אני לבד!": צעד אחר צעד</h3><p>איך מפרקים משימה לצעדים קטנים, כדי שיוכל לעשות עוד קצת לבד.</p></div></div>
+  <div class="day"><div class="n">יום<b>6</b></div><div><h3>מותר לטעות</h3><p>מה אומרים ועושים כשמשהו נשפך, נשבר או לא מצליח.</p></div></div>
+  <div class="day last"><div class="n">יום<b>7</b></div><div><h3>מה לוקחים הלאה</h3><p>חוזרים על כל הכלים של השבוע, ובוחרים אחד שממשיכים איתו.</p></div></div>
+ </div>
+</div></section>
+
+<section class="bg"><div class="w get">
+ <div>
+  <div class="eyebrow">מה מקבלים</div>
+  <h2>הכול נשאר אצלך</h2>
+  <div class="items">
+   <div class="item"><b>7</b><span>הקלטות קצרות</span><small>3–4 דקות כל אחת</small></div>
+   <div class="item"><b>7</b><span>משימות מעשיות</span><small>5–10 דקות עם הילד</small></div>
+   <div class="item"><b>7</b><span>כרטיסי סיכום</span><small>לשמור בטלפון או להדפיס</small></div>
+   <div class="item"><b>1</b><span>מענה בפרטי</span><small>לשאלות ושיתופים לאורך השבוע</small></div>
+  </div>
+ </div>
+ <div class="cards"><img src="https://www.studio-goose.co.il/wp-content/uploads/2026/10/ani-yachol-card-4.png" alt="כרטיס סיכום של יום 4"><img src="https://www.studio-goose.co.il/wp-content/uploads/2026/10/ani-yachol-card-1.png" alt="כרטיס סיכום של יום 1"></div>
+</div></section>
+
+<section><div class="w">
+ <div class="about">
+  <div class="badge">לי</div>
+  <div>
+   <h2>מי מעבירה את הקורס</h2>
+   <p>אני לי, מדריכת הורים, מנהלת גן לילדים בני חצי שנה עד שלוש ואמא. כל יום אני רואה מקרוב איך פעוטות לומדים לעשות לבד, ומה עוזר להם להרגיש בטוחים לנסות. את הכלים האלה אני מביאה לקורס, בשפה פשוטה ועם דוגמאות מהבית ומהגן.</p>
+  </div>
+ </div>
+</div></section>
+
+<section class="bg"><div class="w">
+ <div class="eyebrow">שאלות נפוצות</div>
+ <h2>לפני שנרשמים</h2>
+ <details><summary>אני לא פנויה ב־9:30. זה בסדר?</summary><p>כן. ההודעה וההקלטה נשארות בקבוצה, ואפשר להקשיב מתי שנוח לך: בצהריים, בערב או למחרת.</p></details>
+ <details><summary>כמה זמן זה לוקח ביום?</summary><p>בערך 10–15 דקות: 3–4 דקות הקלטה, ומשימה קצרה שעושים בתוך השגרה הרגילה עם הילד.</p></details>
+ <details><summary>לאיזה גיל זה מתאים?</summary><p>לילדים בני שנה עד שלוש. עם הקטנים יותר המשימות קצרות יותר, ובהקלטות אני נותנת דוגמאות לגילאים שונים.</p></details>
+ <details><summary>אפשר לשאול שאלות?</summary><p>כן. הקבוצה שקטה, אבל אפשר לכתוב לי בפרטי לאורך כל השבוע, בוואטסאפ או באינסטגרם.</p></details>
+ <details><summary>גם בן הזוג יכול להצטרף?</summary><p>בטח. אפשר להקשיב להקלטות יחד ולחלק ביניכם את המשימות. אם תרצו ששניכם תהיו בקבוצה, כתבו לי אחרי ההרשמה.</p></details>
+ <details><summary>ומה עם שבת?</summary><p>בשבת אין הודעות. הקורס מתחיל ביום ראשון 29.11 ומסתיים ביום ראשון 6.12.</p></details>
+ <details><summary>מה מדיניות הביטול?</summary><p>אפשר לבטל ולקבל החזר מלא עד יום לפני תחילת הקורס. מרגע שהקורס מתחיל אין אפשרות להחזר.</p></details>
+</div></section>
+
+<section><div class="w">
+ <div class="final">
+  <span class="pill c">מחיר השקה עד 26.11</span>
+  <h2 style="margin-top:16px">מתחילים ביום ראשון 29.11</h2>
+  <p>שבוע אחד, כמה דקות ביום, וכלים שנשארים איתך הרבה אחרי.</p>
+  <a class="btn l" href="https://pay.grow.link/MTUyNTA~417e7e12c8648726c89fe0aae6986a61-NDE4NDM2NA">להרשמה ב־99 ₪ במקום 149 ₪</a>
+  <p class="note">אפשר לבטל ולקבל החזר מלא עד יום לפני ההתחלה.</p>
+  <p class="note" style="margin-top:18px">שאלה לפני ההרשמה? <a href="https://wa.me/972544926293" style="color:#fff;font-weight:800">כתבי לי בוואטסאפ</a> או <a href="https://ig.me/m/studio_goose_tlv" style="color:#fff;font-weight:800">באינסטגרם</a></p>
+ </div>
+</div></section>
+
+</div>
+<!-- /wp:html -->
