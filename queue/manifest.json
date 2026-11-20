@@ -1,322 +1,326 @@
 [
- {
-  "date": "2026-10-30",
-  "time": "09:22",
-  "unit": "u15",
-  "title": "״הסביבה אומרת שאני מגזימה״",
-  "type": "image",
-  "folder": "queue/2026-10-30-u15",
-  "feed": [
-   "feed/01.jpg"
-  ],
-  "stories": [
-   "stories/01.jpg",
-   "stories/03.jpg"
-  ],
-  "manual_stories": [
-   "02",
-   "04"
-  ],
-  "published": "2026-10-30 09:24",
-  "permalink": "https://www.instagram.com/p/DfHCcv-DkV_/"
- },
- {
-  "date": "2026-11-01",
-  "time": "09:22",
-  "unit": "nl",
-  "title": "הניוזלטר של סטודיו גוס",
-  "type": "carousel",
-  "folder": "queue/2026-11-01-nl",
-  "feed": [
-   "feed/01.jpg",
-   "feed/02.jpg",
-   "feed/03.jpg",
-   "feed/04.jpg",
-   "feed/05.jpg",
-   "feed/06.jpg"
-  ],
-  "stories": [],
-  "manual_stories": [],
-  "published": "2026-11-01 09:24",
-  "permalink": "https://www.instagram.com/p/DfMMDrqjg9w/"
- },
- {
-  "date": "2026-11-06",
-  "time": "09:22",
-  "unit": "about",
-  "title": "נעים להכיר: מי אני והגישה שלי",
-  "type": "carousel",
-  "folder": "queue/2026-11-06-about",
-  "feed": [
-   "feed/01.jpg",
-   "feed/02.jpg",
-   "feed/03.jpg",
-   "feed/04.jpg",
-   "feed/05.jpg",
-   "feed/06.jpg",
-   "feed/07.jpg",
-   "feed/08.jpg"
-  ],
-  "stories": [],
-  "manual_stories": [],
-  "published": "2026-11-06 09:25",
-  "permalink": ""
- },
- {
-  "date": "2026-11-09",
-  "time": "13:22",
-  "unit": "u05",
-  "title": "תינוק בן 5–6 חודשים: מה מעניין אחרי הרעשנים",
-  "type": "carousel",
-  "folder": "queue/2026-11-09-u05",
-  "feed": [
-   "feed/01.jpg",
-   "feed/02.jpg",
-   "feed/03.jpg",
-   "feed/04.jpg",
-   "feed/05.jpg",
-   "feed/06.jpg",
-   "feed/07.jpg",
-   "feed/08.jpg",
-   "feed/09.jpg",
-   "feed/10.jpg"
-  ],
-  "stories": [
-   "stories/01.jpg",
-   "stories/03.jpg",
-   "stories/05.jpg"
-  ],
-  "manual_stories": [
-   "02",
-   "04",
-   "06"
-  ],
-  "published": "2026-11-09 13:25",
-  "permalink": "https://www.instagram.com/p/DfhN9gAiP6p/",
-  "boost_adset": "120254639260870721 (paused: enable_adset blocked by permission check, ad 120254639265900721 paused)"
- },
- {
-  "date": "2026-11-16",
-  "time": "13:22",
-  "unit": "u06",
-  "title": "מה באמת צריך בגיל שנה (לקראת חנוכה)",
-  "type": "carousel",
-  "folder": "queue/2026-11-16-u06",
-  "feed": [
-   "feed/01.jpg",
-   "feed/02.jpg",
-   "feed/03.jpg",
-   "feed/04.jpg",
-   "feed/05.jpg",
-   "feed/06.jpg",
-   "feed/07.jpg",
-   "feed/08.jpg",
-   "feed/09.jpg"
-  ],
-  "stories": [
-   "stories/01.jpg",
-   "stories/03.jpg",
-   "stories/05.jpg"
-  ],
-  "manual_stories": [
-   "02",
-   "04",
-   "06"
-  ],
-  "published": "2026-11-16 13:24",
-  "permalink": "https://www.instagram.com/p/DfzPexACAAY/",
-  "boost_adset": "120254756466270721 (active, ad 120254756469310721 active, 20₪ until 2026-11-18 13:27)"
- },
- {
-  "date": "2026-11-20",
-  "time": "09:22",
-  "unit": "u14",
-  "title": "מוצץ שהתחיל מאוחר",
-  "type": "image",
-  "folder": "queue/2026-11-20-u14",
-  "feed": [
-   "feed/01.jpg"
-  ],
-  "stories": [
-   "stories/01.jpg",
-   "stories/03.jpg"
-  ],
-  "manual_stories": [
-   "02",
-   "04"
-  ]
- },
- {
-  "date": "2026-11-27",
-  "time": "09:22",
-  "unit": "u16",
-  "title": "חיקוי: הוא שותה כשאת שותה",
-  "type": "image",
-  "folder": "queue/2026-11-27-u16",
-  "feed": [
-   "feed/01.jpg"
-  ],
-  "stories": [
-   "stories/01.jpg",
-   "stories/03.jpg"
-  ],
-  "manual_stories": [
-   "02",
-   "04"
-  ]
- },
- {
-  "date": "2026-11-30",
-  "time": "13:22",
-  "unit": "u07",
-  "title": "סקרן למספרים ואותיות",
-  "type": "carousel",
-  "folder": "queue/2026-11-30-u07",
-  "feed": [
-   "feed/01.jpg",
-   "feed/02.jpg",
-   "feed/03.jpg",
-   "feed/04.jpg",
-   "feed/05.jpg",
-   "feed/06.jpg",
-   "feed/07.jpg",
-   "feed/08.jpg",
-   "feed/09.jpg"
-  ],
-  "stories": [
-   "stories/01.jpg",
-   "stories/03.jpg",
-   "stories/04.jpg"
-  ],
-  "manual_stories": [
-   "02",
-   "05",
-   "06"
-  ]
- },
- {
-  "date": "2026-12-18",
-  "time": "09:22",
-  "unit": "u19",
-  "title": "רוטציית צעצועים אחרי חנוכה",
-  "type": "reel",
-  "folder": "queue/2026-12-18-u19",
-  "feed": [
-   "feed/reel.mp4",
-   "feed/cover.jpg"
-  ],
-  "stories": [
-   "stories/01.jpg"
-  ],
-  "manual_stories": [
-   "02"
-  ]
- },
- {
-  "date": "2026-12-22",
-  "time": "13:22",
-  "unit": "u18",
-  "title": "מוטוריקה עדינה לילד שלא יושב רגע",
-  "type": "reel",
-  "folder": "queue/2026-12-22-u18",
-  "feed": [
-   "feed/reel.mp4",
-   "feed/cover.jpg"
-  ],
-  "stories": [
-   "stories/01.jpg"
-  ],
-  "manual_stories": [
-   "02"
-  ]
- },
- {
-  "date": "2026-12-23",
-  "time": "09:22",
-  "unit": "u04",
-  "title": "מתי באמת מבינים ״אסור״",
-  "type": "carousel",
-  "folder": "queue/2026-12-23-u04",
-  "feed": [
-   "feed/01.jpg",
-   "feed/02.jpg",
-   "feed/03.jpg",
-   "feed/04.jpg",
-   "feed/05.jpg",
-   "feed/06.jpg",
-   "feed/07.jpg",
-   "feed/08.jpg",
-   "feed/09.jpg",
-   "feed/10.jpg"
-  ],
-  "stories": [
-   "stories/01.jpg",
-   "stories/03.jpg",
-   "stories/05.jpg"
-  ],
-  "manual_stories": [
-   "02",
-   "04",
-   "06"
-  ]
- },
- {
-  "date": "2026-12-30",
-  "time": "09:22",
-  "unit": "u10",
-  "title": "טיסה ראשונה עם פעוט",
-  "type": "carousel",
-  "folder": "queue/2026-12-30-u10",
-  "feed": [
-   "feed/01.jpg",
-   "feed/02.jpg",
-   "feed/03.jpg",
-   "feed/04.jpg",
-   "feed/05.jpg",
-   "feed/06.jpg",
-   "feed/07.jpg",
-   "feed/08.jpg",
-   "feed/09.jpg"
-  ],
-  "stories": [
-   "stories/01.jpg",
-   "stories/03.jpg",
-   "stories/04.jpg"
-  ],
-  "manual_stories": [
-   "02",
-   "05",
-   "06"
-  ]
- },
- {
-  "date": "2027-01-04",
-  "time": "13:22",
-  "unit": "u01",
-  "title": "מה שואלים לפני שנרשמים לגן",
-  "type": "carousel",
-  "folder": "queue/2027-01-04-u01",
-  "feed": [
-   "feed/01.jpg",
-   "feed/02.jpg",
-   "feed/03.jpg",
-   "feed/04.jpg",
-   "feed/05.jpg",
-   "feed/06.jpg",
-   "feed/07.jpg",
-   "feed/08.jpg",
-   "feed/09.jpg",
-   "feed/10.jpg"
-  ],
-  "stories": [
-   "stories/01.jpg",
-   "stories/03.jpg",
-   "stories/05.jpg"
-  ],
-  "manual_stories": [
-   "02",
-   "04",
-   "06"
-  ]
- }
+  {
+    "date": "2026-10-30",
+    "time": "09:22",
+    "unit": "u15",
+    "title": "״הסביבה אומרת שאני מגזימה״",
+    "type": "image",
+    "folder": "queue/2026-10-30-u15",
+    "feed": [
+      "feed/01.jpg"
+    ],
+    "stories": [
+      "stories/01.jpg",
+      "stories/03.jpg"
+    ],
+    "manual_stories": [
+      "02",
+      "04"
+    ],
+    "published": "2026-10-30 09:24",
+    "permalink": "https://www.instagram.com/p/DfHCcv-DkV_/"
+  },
+  {
+    "date": "2026-11-01",
+    "time": "09:22",
+    "unit": "nl",
+    "title": "הניוזלטר של סטודיו גוס",
+    "type": "carousel",
+    "folder": "queue/2026-11-01-nl",
+    "feed": [
+      "feed/01.jpg",
+      "feed/02.jpg",
+      "feed/03.jpg",
+      "feed/04.jpg",
+      "feed/05.jpg",
+      "feed/06.jpg"
+    ],
+    "stories": [],
+    "manual_stories": [],
+    "published": "2026-11-01 09:24",
+    "permalink": "https://www.instagram.com/p/DfMMDrqjg9w/"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "09:22",
+    "unit": "about",
+    "title": "נעים להכיר: מי אני והגישה שלי",
+    "type": "carousel",
+    "folder": "queue/2026-11-06-about",
+    "feed": [
+      "feed/01.jpg",
+      "feed/02.jpg",
+      "feed/03.jpg",
+      "feed/04.jpg",
+      "feed/05.jpg",
+      "feed/06.jpg",
+      "feed/07.jpg",
+      "feed/08.jpg"
+    ],
+    "stories": [],
+    "manual_stories": [],
+    "published": "2026-11-06 09:25",
+    "permalink": ""
+  },
+  {
+    "date": "2026-11-09",
+    "time": "13:22",
+    "unit": "u05",
+    "title": "תינוק בן 5–6 חודשים: מה מעניין אחרי הרעשנים",
+    "type": "carousel",
+    "folder": "queue/2026-11-09-u05",
+    "feed": [
+      "feed/01.jpg",
+      "feed/02.jpg",
+      "feed/03.jpg",
+      "feed/04.jpg",
+      "feed/05.jpg",
+      "feed/06.jpg",
+      "feed/07.jpg",
+      "feed/08.jpg",
+      "feed/09.jpg",
+      "feed/10.jpg"
+    ],
+    "stories": [
+      "stories/01.jpg",
+      "stories/03.jpg",
+      "stories/05.jpg"
+    ],
+    "manual_stories": [
+      "02",
+      "04",
+      "06"
+    ],
+    "published": "2026-11-09 13:25",
+    "permalink": "https://www.instagram.com/p/DfhN9gAiP6p/",
+    "boost_adset": "120254639260870721 (paused: enable_adset blocked by permission check, ad 120254639265900721 paused)"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "13:22",
+    "unit": "u06",
+    "title": "מה באמת צריך בגיל שנה (לקראת חנוכה)",
+    "type": "carousel",
+    "folder": "queue/2026-11-16-u06",
+    "feed": [
+      "feed/01.jpg",
+      "feed/02.jpg",
+      "feed/03.jpg",
+      "feed/04.jpg",
+      "feed/05.jpg",
+      "feed/06.jpg",
+      "feed/07.jpg",
+      "feed/08.jpg",
+      "feed/09.jpg"
+    ],
+    "stories": [
+      "stories/01.jpg",
+      "stories/03.jpg",
+      "stories/05.jpg"
+    ],
+    "manual_stories": [
+      "02",
+      "04",
+      "06"
+    ],
+    "published": "2026-11-16 13:24",
+    "permalink": "https://www.instagram.com/p/DfzPexACAAY/",
+    "boost_adset": "120254756466270721 (active, ad 120254756469310721 active, 20₪ until 2026-11-18 13:27)"
+  },
+  {
+    "date": "2026-11-20",
+    "time": "09:22",
+    "unit": "u14",
+    "title": "מוצץ שהתחיל מאוחר",
+    "type": "image",
+    "folder": "queue/2026-11-20-u14",
+    "feed": [
+      "feed/01.jpg"
+    ],
+    "stories": [
+      "stories/01.jpg",
+      "stories/03.jpg"
+    ],
+    "manual_stories": [
+      "02",
+      "04"
+    ],
+    "published": "2026-11-20 09:23",
+    "permalink": "",
+    "boost_adset": "120254820786660721",
+    "media_id": "17891541228478269"
+  },
+  {
+    "date": "2026-11-27",
+    "time": "09:22",
+    "unit": "u16",
+    "title": "חיקוי: הוא שותה כשאת שותה",
+    "type": "image",
+    "folder": "queue/2026-11-27-u16",
+    "feed": [
+      "feed/01.jpg"
+    ],
+    "stories": [
+      "stories/01.jpg",
+      "stories/03.jpg"
+    ],
+    "manual_stories": [
+      "02",
+      "04"
+    ]
+  },
+  {
+    "date": "2026-11-30",
+    "time": "13:22",
+    "unit": "u07",
+    "title": "סקרן למספרים ואותיות",
+    "type": "carousel",
+    "folder": "queue/2026-11-30-u07",
+    "feed": [
+      "feed/01.jpg",
+      "feed/02.jpg",
+      "feed/03.jpg",
+      "feed/04.jpg",
+      "feed/05.jpg",
+      "feed/06.jpg",
+      "feed/07.jpg",
+      "feed/08.jpg",
+      "feed/09.jpg"
+    ],
+    "stories": [
+      "stories/01.jpg",
+      "stories/03.jpg",
+      "stories/04.jpg"
+    ],
+    "manual_stories": [
+      "02",
+      "05",
+      "06"
+    ]
+  },
+  {
+    "date": "2026-12-18",
+    "time": "09:22",
+    "unit": "u19",
+    "title": "רוטציית צעצועים אחרי חנוכה",
+    "type": "reel",
+    "folder": "queue/2026-12-18-u19",
+    "feed": [
+      "feed/reel.mp4",
+      "feed/cover.jpg"
+    ],
+    "stories": [
+      "stories/01.jpg"
+    ],
+    "manual_stories": [
+      "02"
+    ]
+  },
+  {
+    "date": "2026-12-22",
+    "time": "13:22",
+    "unit": "u18",
+    "title": "מוטוריקה עדינה לילד שלא יושב רגע",
+    "type": "reel",
+    "folder": "queue/2026-12-22-u18",
+    "feed": [
+      "feed/reel.mp4",
+      "feed/cover.jpg"
+    ],
+    "stories": [
+      "stories/01.jpg"
+    ],
+    "manual_stories": [
+      "02"
+    ]
+  },
+  {
+    "date": "2026-12-23",
+    "time": "09:22",
+    "unit": "u04",
+    "title": "מתי באמת מבינים ״אסור״",
+    "type": "carousel",
+    "folder": "queue/2026-12-23-u04",
+    "feed": [
+      "feed/01.jpg",
+      "feed/02.jpg",
+      "feed/03.jpg",
+      "feed/04.jpg",
+      "feed/05.jpg",
+      "feed/06.jpg",
+      "feed/07.jpg",
+      "feed/08.jpg",
+      "feed/09.jpg",
+      "feed/10.jpg"
+    ],
+    "stories": [
+      "stories/01.jpg",
+      "stories/03.jpg",
+      "stories/05.jpg"
+    ],
+    "manual_stories": [
+      "02",
+      "04",
+      "06"
+    ]
+  },
+  {
+    "date": "2026-12-30",
+    "time": "09:22",
+    "unit": "u10",
+    "title": "טיסה ראשונה עם פעוט",
+    "type": "carousel",
+    "folder": "queue/2026-12-30-u10",
+    "feed": [
+      "feed/01.jpg",
+      "feed/02.jpg",
+      "feed/03.jpg",
+      "feed/04.jpg",
+      "feed/05.jpg",
+      "feed/06.jpg",
+      "feed/07.jpg",
+      "feed/08.jpg",
+      "feed/09.jpg"
+    ],
+    "stories": [
+      "stories/01.jpg",
+      "stories/03.jpg",
+      "stories/04.jpg"
+    ],
+    "manual_stories": [
+      "02",
+      "05",
+      "06"
+    ]
+  },
+  {
+    "date": "2027-01-04",
+    "time": "13:22",
+    "unit": "u01",
+    "title": "מה שואלים לפני שנרשמים לגן",
+    "type": "carousel",
+    "folder": "queue/2027-01-04-u01",
+    "feed": [
+      "feed/01.jpg",
+      "feed/02.jpg",
+      "feed/03.jpg",
+      "feed/04.jpg",
+      "feed/05.jpg",
+      "feed/06.jpg",
+      "feed/07.jpg",
+      "feed/08.jpg",
+      "feed/09.jpg",
+      "feed/10.jpg"
+    ],
+    "stories": [
+      "stories/01.jpg",
+      "stories/03.jpg",
+      "stories/05.jpg"
+    ],
+    "manual_stories": [
+      "02",
+      "04",
+      "06"
+    ]
+  }
 ]
